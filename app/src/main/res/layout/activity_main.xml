@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="130dp"
+         android:text="KID APP"
+         android:textColor="#9C27B0"
+         android:textSize="50dp"
+         android:textAllCaps="true"
+         android:textAlignment="center"
+         android:gravity="center"
+         android:fontFamily="sans-serif-black"
+         android:background="#FFEB3B"
+         />
+
+  <LinearLayout
+
+      android:layout_width="match_parent"
+      android:layout_height="180dp"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:layout_margin="15dp">
+   <ImageView
+       android:id="@+id/A"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/capitala"
+       />
+   <ImageView
+       android:id="@+id/a"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:padding="5dp"
+       android:background="@drawable/small_a"
+       />
+
+
+   <ImageView
+
+       android:id="@+id/one"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/one"
+       />
+
+
+
+
+
+
+
+
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="180dp"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:layout_margin="15dp">
+   <ImageView
+       android:id="@+id/aanar"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+    android:layout_weight="1"
+       android:layout_gravity="center"
+    android:background="@drawable/aaseanar"
+       />
+   <ImageView
+       android:id="@+id/kabutar"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:padding="5dp"
+       android:background="@drawable/ka"
+       />
+
+
+   <ImageView
+       android:id="@+id/fruits"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/apple"
+       />
+
+
+
+
+
+
+
+
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="180dp"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:layout_margin="15dp">
+
+   <ImageView
+       android:id="@+id/trans"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/car"
+       />
+   <ImageView
+       android:id="@+id/flower"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/flo"
+       />
+   <ImageView
+       android:id="@+id/colour"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/colou"
+       />
+
+
+
+
+
+
+
+
+
+  </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:layout_margin="15dp">
+
+   <ImageView
+       android:id="@+id/daybtn"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/day"
+       />
+   <ImageView
+       android:id="@+id/monthbtn"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/mon"
+       />
+   <ImageView
+       android:id="@+id/shapebtn"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/sha"
+       />
+
+
+
+
+
+
+
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:layout_margin="15dp">
+
+   <ImageView
+       android:id="@+id/fambtn"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/fam"
+       />
+   <ImageView
+       android:id="@+id/housebtn"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/house"
+       />
+   <ImageView
+       android:id="@+id/vegbtn"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/vegeta"
+       />
+
+
+
+
+
+
+
+
+
+  </LinearLayout>
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:orientation="horizontal"
+      android:gravity="center"
+      android:layout_weight="1"
+      android:layout_margin="15dp">
+
+   <ImageView
+       android:id="@+id/tajbtn"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/taj"
+       />
+   <ImageView
+       android:id="@+id/anibtn"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/lion"
+       />
+   <ImageView
+       android:id="@+id/fesbtn"
+       android:layout_width="100dp"
+       android:layout_height="140dp"
+       android:layout_weight="1"
+       android:layout_gravity="center"
+       android:background="@drawable/holi"
+       />
+
+
+
+
+
+
+
+
+
+  </LinearLayout>
+
+
+
+
+
+
+
+
+
+ </LinearLayout></ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
